@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home Page -->
+  <url>
+    <loc>https://advicelab.com.au/</loc>
+    <lastmod>2026-02-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.00</priority>
+  </url>
+  
+  <!-- About Page -->
+  <url>
+    <loc>https://advicelab.com.au/about-us</loc>
+    <lastmod>2026-02-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  
+  <!-- Services Pages -->
+  <url>
+    <loc>https://advicelab.com.au/services</loc>
+    <lastmod>2026-02-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <url>
+    <loc>https://advicelab.com.au/services/paraplanning</loc>
+    <lastmod>2026-02-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  
+  <url>
+    <loc>https://advicelab.com.au/services/clientsupport</loc>
+    <lastmod>2026-02-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  
+  <url>
+    <loc>https://advicelab.com.au/services/mortgage-support</loc>
+    <lastmod>2026-03-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  
+  <url>
+    <loc>https://advicelab.com.au/services/smsf-accounting</loc>
+    <lastmod>2026-03-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  
+  <!-- Careers Pages -->
+  <url>
+    <loc>https://advicelab.com.au/careers</loc>
+    <lastmod>2026-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  
+  <!-- Country Career Pages -->
+  <url>
+    <loc>https://advicelab.com.au/careers/philippines</loc>
+    <lastmod>2026-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  <url>
+    <loc>https://advicelab.com.au/careers/srilanka</loc>
+    <lastmod>2026-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  
+  
+  <!-- Blog/Resources Pages -->
+  <url>
+    <loc>https://advicelab.com.au/resources/blogs</loc>
+    <lastmod>2026-02-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+   <!-- Giving Back Pages -->
+  <url>
+    <loc>https://advicelab.com.au/giving-back</loc>
+    <lastmod>2026-04-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  
+  <!-- Contact Page -->
+  <url>
+    <loc>https://advicelab.com.au/contact-us</loc>
+    <lastmod>2026-02-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  
+  <!-- Legal Pages -->
+  <url>
+    <loc>https://advicelab.com.au/cookies-policy</loc>
+    <lastmod>2026-03-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.50</priority>
+  </url>
+  
+
+  <!-- Blog Posts -->
+  <url>
+    <loc>https://advicelab.com.au/blog/the-profit-gap-between-average-and-high-performing-advice-practices</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/how-to-solve-the-great-australian-financial-advice-gap-scaling-practice-capacity-through-strategic-outsourcing</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/reclaim-your-time-why-80-of-brokers-feel-buried-by-admin-and-how-to-fix-it</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/why-australian-financial-advice-practices-are-moving-toward-outsourced-paraplanning-cso</loc>
+    <lastmod>2025-07-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/why-time-zone-alignment-matters-in-offshore-teams</loc>
+    <lastmod>2025-07-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/why-one-paraplanner-who-knows-your-process-beats-ten-who-dont</loc>
+    <lastmod>2025-06-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/do-you-know-why-clients-refer-you-its-not-what-you-think</loc>
+    <lastmod>2025-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/5-common-soa-mistakes-and-how-to-stay-ahead-of-them</loc>
+    <lastmod>2025-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/how-to-prevent-burnout-in-your-financial-advice-team</loc>
+    <lastmod>2025-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/operational-insights-weve-discovered-from-supporting-100-advice-practices-across-australia</loc>
+    <lastmod>2025-05-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/the-value-of-a-dedicated-paraplanner-for-your-financial-planning-business</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/best-practices-for-managing-client-data-securely-in-the-financial-planning-industry</loc>
+    <lastmod>2025-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/how-financial-planners-can-leverage-global-expertise-of-offshore-teams</loc>
+    <lastmod>2023-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/understanding-google-analytics-4-a-guide-for-financial-advisers-in-australia</loc>
+    <lastmod>2023-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://advicelab.com.au/blog/evaluating-the-cost-difference-in-house-paraplanners-vs-offshore-outsourcing-in-australia</loc>
+    <lastmod>2023-04-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/the-impact-of-the-qar-review-on-outsourced-paraplanning</loc>
+    <lastmod>2023-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/the-future-of-outsourced-paraplanning-admin-services-trends-and-predictions</loc>
+    <lastmod>2023-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/incentivizing-word-of-mouth-referrals-through-digital-marketing</loc>
+    <lastmod>2023-03-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/the-importance-of-communication-in-outsourced-paraplanning-admin-services</loc>
+    <lastmod>2023-03-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/the-role-of-technology-in-outsourced-paraplanning-admin-services</loc>
+    <lastmod>2023-03-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/from-invisible-to-prominent-how-digital-marketing-can-help-financial-planning-businesses-stand-out</loc>
+    <lastmod>2023-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/the-non-financial-cost-comparison-in-house-or-outsourced</loc>
+    <lastmod>2023-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/are-you-leveraging-these-digital-tools-for-your-financial-advisory-business</loc>
+    <lastmod>2023-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/the-cost-comparison-inhouse-paraplanning-vs-outsourced</loc>
+    <lastmod>2023-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/the-roi-of-outsourcing-admin-for-financial-planners</loc>
+    <lastmod>2023-02-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/the-benefits-of-content-marketing-for-financial-advisers</loc>
+    <lastmod>2023-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/streamlining-your-financial-planning-practice</loc>
+    <lastmod>2023-02-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://advicelab.com.au/blog/paraplanning-in-house-outsourced-or-both</loc>
+    <lastmod>2023-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+    <loc>https://advicelab.com.au/blog/5-reasons-why-every-business-needs-an-optimized-website</loc>
+    <lastmod>2023-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/moving-from-fact-find-to-onboarding-efficiently</loc>
+    <lastmod>2023-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+  <url>
+     <loc>https://advicelab.com.au/blog/streamlining-the-process-improving-efficiency-when-moving-from-soa-to-implementation</loc>
+    <lastmod>2023-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+
+</urlset>
