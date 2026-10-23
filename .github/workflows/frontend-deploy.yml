@@ -1,57 +1,57 @@
-name: Deploy Frontend
+# name: Deploy Frontend
 
-on:
-  push:
-    branches:
-      - main
-    paths:
-      - "src/**"
-      - "public/**"
-      - "index.html"
-      - "package.json"
-      - "scripts/**"
-      - "vite.config.ts"
-      - "vercel.json"
-      - "publish.sh"
-  workflow_dispatch:
+# on:
+#   push:
+#     branches:
+#       - main
+#     paths:
+#       - "src/**"
+#       - "public/**"
+#       - "index.html"
+#       - "package.json"
+#       - "scripts/**"
+#       - "vite.config.ts"
+#       - "vercel.json"
+#       - "publish.sh"
+#   workflow_dispatch:
 
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
+# jobs:
+#   build-and-deploy:
+#     runs-on: ubuntu-latest
 
-    env:
-      VITE_BLOGGER_API_KEY: ${{ secrets.VITE_BLOGGER_API_KEY }}
-      VITE_BLOG_ID: ${{ secrets.VITE_BLOG_ID }}
+#     env:
+#       VITE_BLOGGER_API_KEY: ${{ secrets.VITE_BLOGGER_API_KEY }}
+#       VITE_BLOG_ID: ${{ secrets.VITE_BLOG_ID }}
 
-    steps:
-      # -- 1. Checkout ----------------------------------------------------------
-      - name: Checkout repository
-        uses: actions/checkout@v4
+#     steps:
+#       # -- 1. Checkout ----------------------------------------------------------
+#       - name: Checkout repository
+#         uses: actions/checkout@v4
 
-      # -- 2. Node setup & dependency install -----------------------------------
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-          cache: "npm"
+#       # -- 2. Node setup & dependency install -----------------------------------
+#       - name: Setup Node.js
+#         uses: actions/setup-node@v4
+#         with:
+#           node-version: "20"
+#           cache: "npm"
 
-      - name: Install dependencies
-        run: npm ci
+#       - name: Install dependencies
+#         run: npm ci
 
-      # -- 3. Build the Vite / React frontend -----------------------------------
-      - name: Build frontend
-        run: npm run build
+#       # -- 3. Build the Vite / React frontend -----------------------------------
+#       - name: Build frontend
+#         run: npm run build
 
-      # -- 4. Configure AWS credentials -----------------------------------------
-      - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v4
-        with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: ap-southeast-2
+#       # -- 4. Configure AWS credentials -----------------------------------------
+#       - name: Configure AWS credentials
+#         uses: aws-actions/configure-aws-credentials@v4
+#         with:
+#           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+#           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+#           aws-region: ap-southeast-2
 
-      # -- 5. Make publish.sh executable and run it -----------------------------
-      - name: Deploy to S3 and invalidate CloudFront
-        run: |
-          chmod +x publish.sh
-          ./publish.sh
+#       # -- 5. Make publish.sh executable and run it -----------------------------
+#       - name: Deploy to S3 and invalidate CloudFront
+#         run: |
+#           chmod +x publish.sh
+#           ./publish.sh
