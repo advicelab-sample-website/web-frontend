@@ -6,31 +6,31 @@ import { usePricingCalculator } from "@/hooks/usePricingCalculator";
 import logo from "@/assets/advicelab-logo.webp";
 
 const navigation = [
-  { name: "Home", href: "/" },
-  {
-    name: "About",
-    href: "/about",
-    children: [
-      { name: "About Us", href: "/about-us" },
-      { name: "Giving Back", href: "/giving-back" },
-    ],
-  },
+  // { name: "Home", href: "/" },
+  // {
+  //   name: "About",
+  //   href: "/about",
+  //   children: [
+  //     { name: "About Us", href: "/about-us" },
+  //     { name: "Giving Back", href: "/giving-back" },
+  //   ],
+  // },
 
-  {
-    name: "Services",
-    href: "/services",
-    children: [
-      { name: "All Services", href: "/services" },
-      { name: "Paraplanning", href: "/services/paraplanning" },
-      { name: "Client Support Officers", href: "/services/clientsupport" },
-      { name: "SMSF & Accounting", href: "/services/smsf-accounting" },
-      { name: "Mortgage Support", href: "/services/mortgage-support" },
-      { name: "Digital Marketing", href: "/services/digital-marketing" },
-    ],
-  },
+  // {
+  //   name: "Services",
+  //   href: "/services",
+  //   children: [
+  //     { name: "All Services", href: "/services" },
+  //     { name: "Paraplanning", href: "/services/paraplanning" },
+  //     { name: "Client Support Officers", href: "/services/clientsupport" },
+  //     { name: "SMSF & Accounting", href: "/services/smsf-accounting" },
+  //     { name: "Mortgage Support", href: "/services/mortgage-support" },
+  //     { name: "Digital Marketing", href: "/services/digital-marketing" },
+  //   ],
+  // },
   {
     name: "Resources",
-    href: "/resources/blogs",
+    href: "/resources/delegation-tool",
     children: [
       // {
       //   name: "Adviser's Guide for Outsourcing",
@@ -49,19 +49,19 @@ const navigation = [
       //   name: "SMSF Trustee Education Kit",
       //   href: "/resources#smsf-trustee-education-kit",
       // },
-      { name: "Blog", href: "/resources/blogs" },
-      {
-        name: "Paraplanning Fee Calculator",
-        href: "/resources/pricing-calculator",
-      },
+      // { name: "Blog", href: "/resources/blogs" },
+      // {
+      //   name: "Paraplanning Fee Calculator",
+      //   href: "/resources/pricing-calculator",
+      // },
       {
         name: "Delegation Tool",
         href: "/resources/delegation-tool",
       },
     ],
   },
-  { name: "Careers", href: "/careers" },
-  { name: "Contact Us", href: "/contact-us" },
+  // { name: "Careers", href: "/careers" },
+  // { name: "Contact Us", href: "/contact-us" },
 ];
 
 export function Navbar() {

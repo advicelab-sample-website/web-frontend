@@ -71,8 +71,8 @@ const AppRoutes = () => {
       <ScrollToTop />
       <Suspense fallback={<PageLoader />}>
         <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/about" element={<Navigate to="/about-us" replace />} />
+           <Route path="/resources/delegation-tool" element={<DelegationTool />} />
+          {/* <Route path="/about" element={<Navigate to="/about-us" replace />} />
           <Route path="/about-us" element={<About />} />
           <Route path="/services" element={<Services />} />
           <Route path="/services/paraplanning" element={<Paraplanning />} />
@@ -95,10 +95,10 @@ const AppRoutes = () => {
             path="/resources/pricing-calculator"
             element={<PricingCalculator />}
           />
-          <Route path="/resources/blogs" element={<Blog />} />
-          <Route path="/resources/delegation-tool" element={<DelegationTool />} />
+          <Route path="/resources/blogs" element={<Blog />} /> */}
+          {/* <Route path="/resources/delegation-tool" element={<DelegationTool />} /> */}
 
-          <Route path="/blog/:slug" element={<BlogPost />} />
+          {/* <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/giving-back" element={<Foundation />} />
           <Route
@@ -115,7 +115,7 @@ const AppRoutes = () => {
             element={<InformationSecurityStatement />}
           />
           <Route path="/404" element={<NotFound />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="*" element={<NotFound />} /> */}
         </Routes>
       </Suspense>
     </>
